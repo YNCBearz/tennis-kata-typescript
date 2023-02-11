@@ -1,8 +1,9 @@
 import { describe } from '@jest/globals';
 import { Tennis } from './Tennis';
 
-describe('score', function() {
-  it('test', function() {
-    expect(1).toBe(1);
+describe('tennis', function () {
+  it('love all', function () {
+    const tennis = new Tennis();
+    expect(tennis.Score()).toBe('love all');
   });
 });

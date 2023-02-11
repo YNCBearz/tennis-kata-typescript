@@ -1,5 +1,5 @@
 export class Tennis {
-  test() {
-    console.log(1);
+  Score(): string {
+    return 'love all';
   }
 }
